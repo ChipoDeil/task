@@ -19,7 +19,6 @@ foreach ($content as $key => $value) {
 		$ageFemale = $human->age;
 		$nameFemale = $human->name;
 	}
-	$i++;
 }
 echo "Самый молодой парень - ".$nameMale.". Его возраст - ".$ageMale.".";
 echo "<br>";
